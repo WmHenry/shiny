@@ -1,6 +1,11 @@
 shiny 1.5.0.9000
 ================
 
+### Minor new features and improvements
+
+* `selectInput` and `selectizeInput` now warn about performance implications when thousands of choices are used, and recommend [server-side selectize](https://shiny.rstudio.com/articles/selectize.html) be used instead.
+
+
 shiny 1.5.0
 ===========
 
